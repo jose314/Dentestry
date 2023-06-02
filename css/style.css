@@ -86,3 +86,69 @@ section{
 .header .logo span{
     color: var(--blue);
 }
+
+.header .nav a{
+    margin: 0 1rem;
+    font-size: 1.7rem;
+    color: var(--black);
+}
+
+.header .nav a:hover{
+    color: var(--blue);
+}
+
+#menu-btn{
+    font-size: 2.5rem;
+    color: var(--black);
+    cursor: pointer;
+    display: none;
+}
+
+.home{
+    background: url(../images/home-bg.jpg) no-repeat;
+    background-position: left;
+}
+
+.home .content{
+    width: 55rem;
+    padding: 2rem;
+}
+
+.home .content h3{
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: var(--black);
+}
+
+.home .content p{
+    line-height: 2;
+    font-size: 1.5rem;
+    color: var(--light-color);
+    padding: 1rem 0;
+}
+
+.about .row{
+    min-height: 50vh;
+}
+
+.about .content span{
+    font-size: 2rem;
+    color: var(--blue);
+}
+
+.about .content h3{
+    font-size: 3rem;
+    color: var(--black);
+    margin-top: 1rem;
+}
+
+.about .content p{
+    padding: 1rem 0;
+    font-size: 1.4rem;
+    color: var(--light-color);
+    line-height: 2;
+}
+
+.services{
+    background-color: var(--light-bg);
+}
