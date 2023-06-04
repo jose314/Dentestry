@@ -198,3 +198,20 @@ section{
     text-align: center;
     box-shadow: var(--box-shadow);
 }
+
+.process .box-container .box img{
+    height: 20rem;
+    margin: 1rem 0;
+}
+
+.process .box-container .box h3{
+    font-size: 2rem;
+    color:var(--white);
+    margin: 1.5rem 0;
+}
+
+.process .box-container .box p{
+    font-size: 1.5rem;
+    color: var(--white);
+    line-height: 2;
+}
