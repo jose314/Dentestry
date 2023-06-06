@@ -200,17 +200,18 @@ if (isset($_POST['submit'])) {
                     }
                 }
             ?>
-            <span>Your name: </span>
+            <span>your name :</span>
             <input type="text" name="name" placeholder="enter your name" class="box" required>
-            <span>Enter your Email</span>
+            <span>your email :</span>
             <input type="email" name="email" placeholder="enter your email" class="box" required>
-            <span>Your number: </span>
+            <span>your number :</span>
             <input type="number" name="number" placeholder="enter your number" class="box" required>
-            <span>appointment date</span>
+            <span>appointment date :</span>
             <input type="date" name="date" class="box" required>
-            <input type="submit" value="make an appointment" name="submit" class="link-btn">
-            
-        
+            <input type="submit" value="make appointment" name="submit" class="link-btn">
+           
+        </form>
+                  
 </section>
 
 <!--Contact section ends-->
