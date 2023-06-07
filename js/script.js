@@ -23,3 +23,20 @@ window.onscroll = ()=>{
         header.classList.remove('active');
     }
 }
+
+// Get the appointment date input element
+const appointmentDateInput = document.getElementById('appointment-date');
+
+// Add an event listener to the appointment date input element
+appointmentDateInput.addEventListener('change', function() {
+  // Get the selected appointment date and time
+  const selectedDateTime = new Date(appointmentDateInput.value);
+
+  // Check if the selected hour is 9:00 AM
+  if (selectedDateTime.getHours() === 9) {
+    // Disable the option for the next hour (10:00 AM)
+    selectedDateTime.setHours(selectedDateTime.getHours() + 1);
+    selectedDateTime.setMinutes(0);
+    appointmentDateInput.value = selectedDateTime.toISOString().slice(0, 16);
+  }
+});

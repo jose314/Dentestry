@@ -207,7 +207,7 @@ if (isset($_POST['submit'])) {
             <span>your number :</span>
             <input type="number" name="number" placeholder="enter your number" class="box" required>
             <span>appointment date :</span>
-            <input type="date" name="date" class="box" required>
+            <input type="datetime-local" name="date" class="box" required>
             <input type="submit" value="make appointment" name="submit" class="link-btn">
            
         </form>
